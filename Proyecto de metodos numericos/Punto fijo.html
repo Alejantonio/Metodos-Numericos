@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punto fijo</title>
+    <link rel="stylesheet" href="/Proyecto de metodos numericos/metodos.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Metodo del punto fijo</h1>
+        <h2>El método del punto fijo es un método iterativo que permite resolver sistemas de ecuaciones no necesariamente lineales. En particular se puede utilizar para determinar raíces de una función de la forma 𝑓(𝑥), siempre y cuando se cumplan los criterios de convergencia.</h2>
+        <h2></h2>
+        <h3>Ingrese los datos que quiere evaluar</h3>
+        <form id="userForm">
+            <div class="labels-container">
+                <span class="label">Aproximacion inicial P0:</span>
+                <span class="label">  </span>
+                <span class="label">Tolerancia:</span>
+                <span class="label">    </span>
+                <span class="label">    </span>
+                <span class="label">    </span>
+                <span class="label">Numero maximo de iteraciones</span>
+            </div>
+            <div class="userForm">
+                <input type="number" name="P0" id="P0" placeholder="P0">
+                <input type="number" name="Tol" id="Tol" placeholder="Tol">
+                <input type="number" name="Iteraciones" id="Iteraciones" placeholder="Iteraciones">
+                <span class="label">    </span>
+                <button onclick="Evaluar()">Evaluar</button>    
+            </div>
+
+            <div class="labels-container">
+                <span class="label">    </span>
+            </div>
+
+            <table>
+                <tr>
+                    <td>
+                        <span class="label">Aproximacion inicial </span>
+                    </td>
+                    <td>
+                        <span class="label">Tolerancia</span>
+                    </td>
+                    <td>
+                        <span class="label">Iteraciones</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+            </table>
+
+            
+        </form>
+    </div>
+    <script src="/Proyecto de metodos numericos/Punto fijo.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metodos numericos</title>
+    <link rel="stylesheet" href="/Proyecto de metodos numericos/metodos.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Metodos Numericos</h1>
+
+        <div style="position: relative;">
+            <img src="/Proyecto de metodos numericos/Metodos logo.png" alt="" style="position: absolute; top: 0; right: 0;"  width="256" height="256">
+        </div>
+
+        <h2>¿Que son los metodos numericos?</h2>
+        <h3>Es un proceso matemático iterativo cuyo objetivo es encontrar la aproximación a una solución especıfica con un cierto error previamente determinado.</h3>
+        <h2>¿Que metodos se estan empleando?</h2>
+
+        <h3>
+            <li>Punto fijo</li>
+            <p class="normal-text">Consiste en generar una sucesión {xn}n que se define mediante la fórmula de iteración: xn = g(xn-1), que converge a α cualquiera sea x0 ∈ [a, b]
+                <a href="/Proyecto de metodos numericos/Punto fijo.html">Probar metodo</a>
+            </p>
+            <li>Newton-Rapson</li>
+            <p class="normal-text">Es un método abierto, en el sentido de que su convergencia global no está garantizada. La única manera de alcanzar la convergencia es seleccionar un valor inicial lo suficientemente cercano a la raíz buscada
+                <a href="/Proyecto de metodos numericos/Newton-Rapson.html">Probar metodo</a>
+            </p>
+            <li>Lagrange</li>
+            <p class="normal-text">Consiste en convertir el problema con restricciones de igualdad en uno de óptimos libres, gracias a la incorporación de las restricciones a la función objetivo.
+                <a href="/Proyecto de metodos numericos/Lagrange.html">Probar metodo</a>
+            </p>
+            <li>Diferencias divididas</li>
+            <p class="normal-text">Consiste en escribir los puntos x e y en las dos primer columnas; luego, se realizan las diferencias de la columna de diferencias anterior y los valores de x correspondientes
+                <a href="/Proyecto de metodos numericos/Diferencias divididas.html">Probar metodo</a>
+            </p>
+            <li>Newton hacia delante</li>
+            <p class="normal-text">Se llaman primeras diferencias hacia adelante, a la diferencia entre dos valores consecutivos de y
+                <a href="/Proyecto de metodos numericos/Newton hacia delante.html">Probar metodo</a>
+            </p>
+            <li>Newton hacia atras</li>
+            <p class="normal-text">Si se decide emplear la interpolación de Newton, se requiere hacer un proceso hacia atrás, es decir; de abajo hacia arriba. Se puede realizar lo siguiente: Cambiar el orden en forma regresiva y resolver bajo el proceso de interpolación regular, o hacer un cambio de signos
+                <a href="/Proyecto de metodos numericos/Newton hacia atras.html">Probar metodo</a>
+            </p>
+            <li>Minimos cuadrados</li>
+            <p class="normal-text">Se utiliza para calcular la recta de regresión lineal que minimiza los residuos, esto es, las diferencias entre los valores reales y los estimados por la recta.
+                <a href="/Proyecto de metodos numericos/Minimos cuadrados.html">Probar metodo</a>
+            </p>
+            <li>Metodo del trapecio</li>
+            <p class="normal-text">Es uno de los métodos más utilizados para calcular aproximaciones numéricas de integrales definidas
+                <a href="/Proyecto de metodos numericos/Trapecio.html">Probar metodo</a>
+            </p>
+            <li>Metodo de Simpson 1/3</li>
+            <p class="normal-text">Es, en general, el método de preferencia ya que alcanza exactitud de tercer orden con tres puntos en vez de los cuatro puntos necesarios para la versión de 3/8.
+                <a href="/Proyecto de metodos numericos/Simpson 1-3.html">Probar metodo</a>
+            </p>
+            <li>Metodo de Simpson 3/8</li>
+            <p class="normal-text">No obstante la regla de 3/8 tiene utilidad en las aplicaciones de segmentos múltiples cuando el número de fajas es impar.
+                <a href="/Proyecto de metodos numericos/Simpson 3-8.html">Probar metodo</a>
+            </p>
+        </h3>
+
+        <!--
+        <form id="userForm">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Formato: 123-456-7890">
+            </div>
+            <button id="btn" type="submit">Registrarse</button>
+        </form>
+    -->
+    </div>
+    <script src="/Proyecto de metodos numericos/Metodos.js"></script>
+</body>
+</html>
